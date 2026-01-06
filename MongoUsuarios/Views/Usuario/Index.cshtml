@@ -1,0 +1,40 @@
+﻿@model List<MongoUsuarios.Dtos.UsuarioDto>
+
+<div class="container mt-4">
+    <h2>Lista de Usuários</h2>
+    <a class="btn btn-primary mb-3" href="/Usuario/Create">Novo Usuário</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+                <th style="width: 160px;">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.Nome</td>
+                    <td>@u.Email</td>
+                    <td>@u.Idade</td>
+                    <td class="text-center">
+                        <!-- Botão Editar -->
+                        <a class="btn btn-warning btn-sm"
+                           href="/Usuario/Edit/@u.Nome">
+                            Editar
+                        </a>
+
+                        <!-- Botão Excluir -->
+                        <a class="btn btn-danger btn-sm"
+                           href="/Usuario/Delete/@Uri.EscapeDataString(u.Id)"
+                           onclick="return confirm('Deseja realmente excluir este usuário?');">
+                            Excluir
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
