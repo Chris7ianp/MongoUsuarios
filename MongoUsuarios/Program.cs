@@ -14,6 +14,7 @@ namespace MongoUsuarios
             builder.Services.AddControllersWithViews();
             builder.Services.AddSingleton<UsuarioService>();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            builder.Services.AddAutoMapper(typeof(UsuarioProfile));
 
 
             var app = builder.Build();

@@ -48,5 +48,36 @@ namespace MongoUsuarios.Controllers
 
             return RedirectToAction("Index");
         }
+
+
+        [HttpGet]
+        public IActionResult Edit(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+                return BadRequest();
+
+            var usuario = _service.Get(id); // retorna Usuario (Model)
+
+            if (usuario == null)
+                return NotFound();
+
+            var usuarioDto = _mapper.Map<UsuarioDto>(usuario);
+
+            return View(usuarioDto);
+        }
+
+
+        [HttpPost]
+        public IActionResult Edit(UsuarioDto usuarioDto)
+        {
+            if (!ModelState.IsValid)
+                return View(usuarioDto);
+
+            var usuario = _mapper.Map<Usuario>(usuarioDto);
+
+            _service.Update(usuarioDto.Id, usuario);
+
+            return RedirectToAction("Index");
+        }
     }
 }
