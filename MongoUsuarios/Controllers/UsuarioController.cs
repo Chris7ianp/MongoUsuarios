@@ -30,13 +30,18 @@ namespace MongoUsuarios.Controllers
         [HttpPost]
         public IActionResult Create(UsuarioDto usuarioDto)
         {
-            if (ModelState.IsValid)
-            {
-                var usuario = _mapper.Map<Usuario>(usuarioDto);
-                _service.Create(usuario);
-                return RedirectToAction("Index");
-            }
-            return View(usuarioDto);
+            if (!ModelState.IsValid)
+                return View(usuarioDto);
+
+            var usuario = _mapper.Map<Usuario>(usuarioDto);
+
+            // Garante que seja criação: não reaproveita Id vindo da View
+            usuario.Id = null;
+
+            _service.Create(usuario); // internamente faz InsertOne/InsertOneAsync
+
+            // aqui o usuario.Id já deve estar preenchido com o ObjectId gerado
+            return RedirectToAction("Index");
         }
 
         public IActionResult Delete(string id)
