@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|c:\\users\\suporte\\desktop\\project-mongo\\mongousuarios\\mongousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|solutionrelative:mongousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "MongoUsuarios\\Program.cs",
+              "ToolTip": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Program.cs",
+              "RelativeToolTip": "MongoUsuarios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T19:09:05.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
