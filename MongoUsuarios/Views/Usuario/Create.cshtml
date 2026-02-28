@@ -5,7 +5,9 @@
 
 <div class="container mt-4">
     <h2>Cadastrar Usuário</h2>
-    <form method="post">
+    <form method="post" asp-action="Create" asp-controller="Usuario">
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
         <div class="mb-3">
             <label>Nome</label>
             <input asp-for="Nome" class="form-control" />
@@ -19,5 +21,6 @@
             <input asp-for="Idade" class="form-control" type="number" />
         </div>
         <button type="submit" class="btn btn-success">Salvar</button>
+        <a asp-page="/Usuario/Index" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>
