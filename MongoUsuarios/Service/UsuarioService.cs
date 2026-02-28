@@ -12,7 +12,7 @@ namespace MongoUsuarios.Service
             var connectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
             var client = new MongoClient(connectionString);
             var database = client.GetDatabase(config["MongoDB:Database"]);
-            _usuarios = database.GetCollection<Usuario>("usarios");
+            _usuarios = database.GetCollection<Usuario>("usuarios");
         }
 
         public List<Usuario> Get() => _usuarios.Find(u => true).ToList();

@@ -34,8 +34,7 @@
               "RelativeToolTip": "MongoUsuarios\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-28T19:36:52.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T19:36:52.957Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "MongoUsuarios\\Service\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Service\\UsuarioService.cs",
               "RelativeToolTip": "MongoUsuarios\\Service\\UsuarioService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T19:35:41.337Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "MongoUsuarios\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T19:09:05.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T19:09:05.616Z"
             }
           ]
         }
