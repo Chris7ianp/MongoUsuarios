@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|c:\\users\\suporte\\desktop\\project-mongo\\mongousuarios\\mongousuarios\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|solutionrelative:mongousuarios\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|c:\\users\\suporte\\desktop\\project-mongo\\mongousuarios\\mongousuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|solutionrelative:mongousuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|c:\\users\\suporte\\desktop\\project-mongo\\mongousuarios\\mongousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60A4F9-3F47-4A16-977A-D5C218EEC851}|MongoUsuarios\\MongoUsuarios.csproj|solutionrelative:mongousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\appsettings.json",
+              "RelativeDocumentMoniker": "MongoUsuarios\\appsettings.json",
+              "ToolTip": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\appsettings.json",
+              "RelativeToolTip": "MongoUsuarios\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T19:36:52.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "MongoUsuarios\\Service\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "MongoUsuarios\\Service\\UsuarioService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T19:35:41.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "MongoUsuarios\\Program.cs",
+              "ToolTip": "C:\\Users\\suporte\\Desktop\\Project-Mongo\\MongoUsuarios\\MongoUsuarios\\Program.cs",
+              "RelativeToolTip": "MongoUsuarios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T19:09:05.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

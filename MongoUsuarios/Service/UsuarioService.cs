@@ -9,7 +9,8 @@ namespace MongoUsuarios.Service
 
         public UsuarioService(IConfiguration config)
         {
-            var client = new MongoClient(config["MongoDB:ConnectionString"]);
+            var connectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
+            var client = new MongoClient(connectionString);
             var database = client.GetDatabase(config["MongoDB:Database"]);
             _usuarios = database.GetCollection<Usuario>("usarios");
         }
